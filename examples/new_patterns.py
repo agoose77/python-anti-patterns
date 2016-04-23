@@ -97,7 +97,7 @@ Not using zip() to iterate over a pair of lists
 l1 = [1,2,3]
 l2 = [4,5,6]
 
-for i in range(l1):
+for i in range(len(l1)):
     l1v = l1[i]
     l2v = l2[i]
     print(l1v,l2v)
